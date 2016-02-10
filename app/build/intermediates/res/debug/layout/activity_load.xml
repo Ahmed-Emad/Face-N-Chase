@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.ahmedemad.facenchase.Load_Activity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/facenchaseload"
+    />
+
+</LinearLayout><!-- From: file:/Users/ahmadbarakat/Documents/GitHub/Face.N.Chase/app/src/main/res/layout/activity_load.xml -->

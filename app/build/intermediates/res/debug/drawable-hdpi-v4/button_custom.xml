@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/button"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/button"
+        android:state_focused="true" />
+    <item android:drawable="@drawable/button" />
+
+</selector><!-- From: file:/Users/ahmadbarakat/Documents/GitHub/Face.N.Chase/app/src/main/res/drawable-hdpi/button_custom.xml -->

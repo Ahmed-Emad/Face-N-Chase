@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    android:background="@drawable/back1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Main_Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facenchase"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="left"
+            />
+        <Button
+            android:id="@+id/B_Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left"
+            android:textSize="30dp"
+            android:text="  S T A R T  "
+            android:textColor="@color/white"
+            android:background="@drawable/button_custom"
+            />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Best"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 00.0 "
+                android:textSize="35dp"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:layout_gravity="right"
+                android:layout_marginRight="28dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Your Best"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:layout_marginRight="27dp"
+                />
+
+            <TextView
+                android:id="@+id/Last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 00.0 "
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:layout_gravity="right"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:text="Your Score"
+                android:layout_gravity="right"
+                android:layout_marginRight="26dp"
+                />
+
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/ahmadbarakat/Documents/GitHub/Face.N.Chase/app/src/main/res/layout/activity_main.xml -->
